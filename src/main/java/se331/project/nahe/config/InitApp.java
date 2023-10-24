@@ -20,7 +20,7 @@ public class InitApp implements ApplicationListener<ApplicationReadyEvent> {
                 .name("Sorawee")
                 .surname("Sakunchao").build());
         studentRepository.save(Student.builder()
-                .name("Pattanachai")
-                .surname("Sakunchao").build());
+                .name("Putthipong")
+                .surname("Ninwong").build());
     }
 }

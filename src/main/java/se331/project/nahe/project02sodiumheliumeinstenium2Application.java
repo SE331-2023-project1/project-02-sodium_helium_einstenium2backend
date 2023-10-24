@@ -10,7 +10,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class project02sodiumheliumeinstenium2Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(project02sodiumheliumeinstenium2.class, args);
+		SpringApplication.run(project02sodiumheliumeinstenium2Application.class, args);
 	}
 
 	@Bean
