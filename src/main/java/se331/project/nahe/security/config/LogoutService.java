@@ -1,4 +1,4 @@
-package com.se331.zomsantech.security.config;
+package com.se331.nahe.security.config;
 
 import com.se331.nahe.security.token.TokenRepository;
 import jakarta.servlet.http.HttpServletRequest;
