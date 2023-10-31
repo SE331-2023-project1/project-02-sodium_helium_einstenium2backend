@@ -1,0 +1,31 @@
+{
+  "devDependencies": {
+    "vite": "^4.5.0"
+  },
+  "name": "project-02-sodium_helium_einstenium2backend",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/lqwrJucr)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "esbuild": "^0.18.20",
+    "postcss": "^8.4.31",
+    "nanoid": "^3.3.6",
+    "source-map-js": "^1.0.2",
+    "picocolors": "^1.0.0",
+    "rollup": "^3.29.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SE331-2023-project1/project-02-sodium_helium_einstenium2backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SE331-2023-project1/project-02-sodium_helium_einstenium2backend/issues"
+  },
+  "homepage": "https://github.com/SE331-2023-project1/project-02-sodium_helium_einstenium2backend#readme",
+  "keywords": []
+}
