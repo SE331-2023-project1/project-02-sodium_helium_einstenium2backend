@@ -1,7 +1,9 @@
 package se331.project.nahe.entity;
 
+import com.se331.nahe.security.user.User;
 import jakarta.persistence.*;
 import lombok.*;
+
 import java.util.List;
 
 @Data
@@ -14,9 +16,15 @@ public class Student {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @EqualsAndHashCode.Exclude
     Long id;
-    String name;
-    String surname;
     @ElementCollection
     List<String> images;
     String department;
+    @ManyToOne
+    Teacher teacher;
+    @OneToOne
+    @JoinColumn(name = "user_id")
+    private User user;
+
+    @OneToMany(mappedBy = "student")
+    List<Comment> comments;
 }
