@@ -1,6 +1,6 @@
 package se331.project.nahe.controller;
 
-ort com.se331.nahe.service.AnnouncementService;
+import com.se331.nahe.service.AnnouncementService;
 import com.se331.nahe.util.CloudStorageHelper;
 import com.se331.nahe.util.LabMapper;
 import jakarta.servlet.ServletException;
