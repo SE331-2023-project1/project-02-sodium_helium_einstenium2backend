@@ -7,17 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="project-02-sodium_helium_einstenium2" />
+        <module name="zomsantech" />
+        <module name="project-02-zomsantech-new" />
         <module name="project-02-sodium_helium_einstenium2backend" />
-        <module name="nahe" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="nahe" options="-parameters" />
-      <module name="project-02-sodium_helium_einstenium2" options="-parameters" />
       <module name="project-02-sodium_helium_einstenium2backend" options="-parameters" />
+      <module name="project-02-zomsantech-new" options="-parameters" />
+      <module name="zomsantech" options="-parameters" />
     </option>
   </component>
 </project>
