@@ -1,4 +1,4 @@
-package com.se331.zomsantech;
+package com.se331.nahe;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,10 +7,10 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @SpringBootApplication
-public class ZomsantechApplication {
+public class SodiumHeliumEinsteniumApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ZomsantechApplication.class, args);
+		SpringApplication.run(SodiumHeliumEinsteniumApplication.class, args);
 	}
 
 	@Bean
