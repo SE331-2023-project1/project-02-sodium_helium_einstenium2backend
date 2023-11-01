@@ -6,7 +6,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.se331.zomsantech.entity.Teacher;
+import com.se331.nahe.entity.Teacher;
 
 public interface TeacherRepository extends JpaRepository<Teacher, Long> {
     List<Teacher> findAll();
